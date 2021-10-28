@@ -1,0 +1,192 @@
+@import "../../sass/color";
+
+
+
+.page-detail {
+  .container {
+    align-items: center;
+    justify-content: center;
+    background-color: $blue;
+    display: flex;
+  }
+
+  .content {
+    min-height: 100vh;
+    width: 70vw;
+    min-width: 1280px;
+    
+  }
+
+  .header {
+    background-color: #273c75;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .content-header {
+    // background-color: #192a56;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .search {
+    width: 40%;
+    height: 60%;
+    background-color: #192a56;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 100px;
+    border-width: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+  }
+
+  .search-input {
+    color: white;
+    width: 90%;
+    font-size: 24px;
+    font-family: Poppins;
+    background-color: transparent;
+    border-width: 0px;
+  }
+
+  .banner {
+    width: 100%;
+    height: 40vh;
+    background-image: url("../../assets/images/wonder-woman.png");
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .movie {
+    width: 49.5%;
+    height: 20vh;
+    background-color: $white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 200px;
+  }
+
+  .movie-image {
+    width: 22%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .movie-title {
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #273c75;
+
+  }
+
+  .movie-image-modal {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .container-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .movie-rating {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f1c40f;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .movie-rating-imdb {
+    font-weight: bold;
+    font-family: Poppins;
+    color: #273c75;
+   
+  }
+
+  .movie-rating-number {
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 32px;
+    margin-left: 12px;
+    color: #999999;
+  }
+
+  .movie-detail {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .btn-back {
+    padding: 20px;
+    background-color: #192a56;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: Poppins;
+    color: white;
+    font-weight: bold;
+  }
+
+  .info {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-detail {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imgPoster { 
+    border-radius: 10px; 
+    height: 400px; 
+    width: 250px ;}
+}
