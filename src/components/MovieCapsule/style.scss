@@ -10,8 +10,7 @@
   align-items: center;
   display: flex;
   min-height: 200px;
-  cursor: pointer;
-}
+ 
 
 .movie-content {
   width: 90%;
@@ -22,6 +21,7 @@
 }
 
 .movie-image {
+  cursor: pointer;
   width: 22%;
   height: 100%;
   border-radius: 10px;
@@ -38,4 +38,6 @@
   font-weight: bold;
   color: #273c75;
   z-index: 2;
+  cursor: pointer;
+}
 }

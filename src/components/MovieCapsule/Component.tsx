@@ -20,16 +20,20 @@ const Component = ({
   title,
 }: Props) => {
   return (
-    <div
-      onClick={onClick}
-      key={keyComponent}
-      ref={refComponent}
-      className="movie"
-    >
+    <div key={keyComponent} ref={refComponent} className="movie">
       <div className="movie-content">
-        <img src={imgSrc} onClick={onClickImg} className="movie-image" />
+        <img
+          src={imgSrc}
+          onClick={(e) => {
+            e.preventDefault();
+            onClickImg && onClickImg();
+          }}
+          className="movie-image"
+        />
         <div className="movie-info">
-          <span className="movie-title">{title}</span>
+          <span onClick={onClick} className="movie-title">
+            {title}
+          </span>
         </div>
       </div>
     </div>
